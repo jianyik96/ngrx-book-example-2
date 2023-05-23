@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Notes
+npm install @ngrx/store
+
+Defined actions to express events.
+Defined two reducer functions to manage different parts of the state.
+Registered the global state container that is available throughout your application.
+Defined the state, as well as selectors that retrieve specific parts of the state.
+Created two distinct components, as well as a service that fetches from the Google Books API.
+Injected the Store and Google Books API services to dispatch actions and select the current state.
